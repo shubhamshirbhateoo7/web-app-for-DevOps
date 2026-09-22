@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#fffff0"/>
+  <polygon points="200,55 100,140 130,140 130,240 270,240 270,140 300,140" fill="#ecc94b"/>
+  <rect x="170" y="175" width="60" height="65" rx="4" fill="#d69e2e"/>
+  <rect x="155" y="140" width="40" height="40" rx="4" fill="#f6e05e"/>
+  <rect x="205" y="140" width="40" height="40" rx="4" fill="#f6e05e"/>
+  <text x="200" y="272" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#b7791f">Home &amp; Kitchen</text>
+</svg>
