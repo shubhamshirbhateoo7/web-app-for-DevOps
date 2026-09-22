@@ -1,0 +1,194 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "MacBook Pro 14-inch",
+      "slug": "macbook-pro-14",
+      "description": "Apple M3 chip, 16GB RAM, 512GB SSD. Perfect for developers and creative professionals.",
+      "price": "1999.99",
+      "stock": 15,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-10T10:00:00Z",
+      "updated_at": "2024-01-10T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "name": "Samsung Galaxy S24",
+      "slug": "samsung-galaxy-s24",
+      "description": "6.2-inch display, 256GB storage, 50MP camera. Android flagship with AI features.",
+      "price": "799.99",
+      "stock": 30,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-11T10:00:00Z",
+      "updated_at": "2024-01-11T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "name": "iPad Air 5th Gen",
+      "slug": "ipad-air-5th-gen",
+      "description": "10.9-inch Liquid Retina display, M1 chip, 256GB. Lightweight and powerful.",
+      "price": "749.99",
+      "stock": 20,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-12T10:00:00Z",
+      "updated_at": "2024-01-12T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "name": "Sony WH-1000XM5 Headphones",
+      "slug": "sony-wh-1000xm5",
+      "description": "Industry-leading noise cancellation, 30-hour battery, Hi-Res Audio support.",
+      "price": "349.99",
+      "stock": 25,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-13T10:00:00Z",
+      "updated_at": "2024-01-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "category": 2,
+      "name": "Classic Denim Jacket",
+      "slug": "classic-denim-jacket",
+      "description": "100% cotton denim, regular fit. Available in blue and black. Sizes S to XXL.",
+      "price": "89.99",
+      "stock": 50,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-14T10:00:00Z",
+      "updated_at": "2024-01-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "category": 2,
+      "name": "Premium Cotton T-Shirt",
+      "slug": "premium-cotton-tshirt",
+      "description": "Heavyweight 220gsm cotton, pre-shrunk, available in 10 colors. Unisex fit.",
+      "price": "29.99",
+      "stock": 100,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "category": 3,
+      "name": "Clean Code by Robert C. Martin",
+      "slug": "clean-code-martin",
+      "description": "A handbook of agile software craftsmanship. Essential reading for every developer.",
+      "price": "39.99",
+      "stock": 40,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-16T10:00:00Z",
+      "updated_at": "2024-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "category": 3,
+      "name": "Designing Data-Intensive Applications",
+      "slug": "designing-data-intensive-apps",
+      "description": "The big ideas behind reliable, scalable, and maintainable systems. By Martin Kleppmann.",
+      "price": "54.99",
+      "stock": 35,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-17T10:00:00Z",
+      "updated_at": "2024-01-17T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "category": 4,
+      "name": "Ergonomic Office Chair",
+      "slug": "ergonomic-office-chair",
+      "description": "Adjustable lumbar support, breathable mesh back, 4D armrests. Supports up to 150kg.",
+      "price": "299.99",
+      "stock": 12,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-18T10:00:00Z",
+      "updated_at": "2024-01-18T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "category": 4,
+      "name": "Stainless Steel Water Bottle",
+      "slug": "stainless-steel-water-bottle",
+      "description": "1L double-wall vacuum insulated. Keeps drinks cold 24hrs, hot 12hrs. BPA free.",
+      "price": "34.99",
+      "stock": 75,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-19T10:00:00Z",
+      "updated_at": "2024-01-19T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "category": 1,
+      "name": "Dell 27-inch 4K Monitor",
+      "slug": "dell-27-4k-monitor",
+      "description": "IPS panel, 144Hz refresh rate, USB-C and HDMI inputs. Factory calibrated.",
+      "price": "449.99",
+      "stock": 18,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-20T10:00:00Z",
+      "updated_at": "2024-01-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "category": 3,
+      "name": "The Pragmatic Programmer",
+      "slug": "pragmatic-programmer",
+      "description": "20th Anniversary Edition. Your journey to mastery by David Thomas and Andrew Hunt.",
+      "price": "49.99",
+      "stock": 28,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-21T10:00:00Z",
+      "updated_at": "2024-01-21T10:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#fff5f5"/>
+  <polygon points="200,60 150,90 120,80 100,130 145,125 145,240 255,240 255,125 300,130 280,80 250,90" fill="#fc8181"/>
+  <polygon points="150,90 200,110 250,90 200,60" fill="#feb2b2"/>
+  <text x="200" y="272" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#c53030">Clothing</text>
+</svg>
