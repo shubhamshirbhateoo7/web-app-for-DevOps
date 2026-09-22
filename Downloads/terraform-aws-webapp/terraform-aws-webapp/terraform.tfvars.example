@@ -1,0 +1,29 @@
+# Copy this file to terraform.tfvars and adjust for your environment.
+
+aws_region   = "us-east-1"
+project_name = "scalable-webapp"
+environment  = "dev"
+
+availability_zones     = ["us-east-1a", "us-east-1b"]
+vpc_cidr                = "10.0.0.0/16"
+public_subnet_cidrs     = ["10.0.0.0/24", "10.0.1.0/24"]
+private_subnet_cidrs    = ["10.0.10.0/24", "10.0.11.0/24"]
+database_subnet_cidrs   = ["10.0.20.0/24", "10.0.21.0/24"]
+single_nat_gateway       = true # set false in prod for AZ-independent NAT
+
+instance_type        = "t2.micro"
+asg_min_size          = 2
+asg_max_size          = 6
+asg_desired_capacity   = 2
+key_pair_name          = null # e.g. "my-keypair" if you want SSH as a fallback to SSM
+
+db_engine                 = "postgres"
+db_instance_class          = "db.t3.micro"
+db_name                     = "appdb"
+db_username                 = "appadmin"
+db_multi_az                 = true
+db_allocated_storage        = 20
+db_backup_retention_days    = 7
+
+alarm_notification_email = "you@example.com"
+enable_waf                = true
