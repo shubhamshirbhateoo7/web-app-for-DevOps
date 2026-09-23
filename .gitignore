@@ -7,9 +7,13 @@ venv/
 *.egg-info/
 dist/
 build/
-.env
 staticfiles/
 media/
+
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
 
 # Node
 node_modules/
