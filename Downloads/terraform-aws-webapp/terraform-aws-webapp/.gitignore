@@ -1,0 +1,25 @@
+# ── Terraform state — never commit these ──
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform/
+.terraform.lock.hcl
+tfplan
+
+# ── Secrets — never commit these ──
+terraform.tfvars
+*.tfvars
+!terraform.tfvars.example
+
+# ── Crash logs ──
+crash.log
+crash.*.log
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
