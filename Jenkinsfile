@@ -57,7 +57,7 @@ pipeline {
 
         // ── 4. Deploy Frontend → S3 static-assets bucket ─────────────────────
         stage('Deploy: Frontend → S3') {
-            when { branch 'main' }
+            when { expression { env.GIT_BRANCH == 'origin/main' } }
             steps {
                 withCredentials([[
                     $class: 'AmazonWebServicesCredentialsBinding',
@@ -87,7 +87,7 @@ pipeline {
 
         // ── 5. Deploy Backend → EC2 via SSM ──────────────────────────────────
         stage('Deploy: Backend → EC2 via SSM') {
-            when { branch 'main' }
+            when { expression { env.GIT_BRANCH == 'origin/main' } }
             steps {
                 withCredentials([[
                     $class: 'AmazonWebServicesCredentialsBinding',
