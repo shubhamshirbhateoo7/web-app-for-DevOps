@@ -46,7 +46,7 @@ pipeline {
                 ]) {
                     dir('frontend') {
                         sh '''
-                            npm ci --silent
+                            npm ci 
                             npm test
                             VITE_API_BASE_URL=http://${ALB_DNS_NAME} npm run build
                         '''
