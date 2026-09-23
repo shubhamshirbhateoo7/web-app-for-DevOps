@@ -126,7 +126,7 @@ pipeline {
                                     "set -e",
                                     "aws s3 cp s3://${env.S3_FRONTEND_BUCKET}/deploy/backend.zip /tmp/backend.zip --region ${env.AWS_REGION}",
                                     "unzip -o /tmp/backend.zip -d /tmp/",
-                                    "rsync -a --delete /tmp/backend/ ${env.DEPLOY_PATH}/",
+                                    "rsync -a --delete --exclude='.env' --exclude='.venv' /tmp/backend/ ${env.DEPLOY_PATH}/",
                                     "chown -R webapp:webapp ${env.DEPLOY_PATH}",
                                     "cd ${env.DEPLOY_PATH}",
                                     "python3 -m venv .venv",
