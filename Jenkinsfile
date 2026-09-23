@@ -28,6 +28,7 @@ pipeline {
                     sh '''
                         python3 -m venv .venv
                         . .venv/bin/activate
+                        pip install --quiet --only-binary=:all: psycopg2-binary
                         pip install --quiet -r requirements.txt
                         DB_PASSWORD=ci-only \
                         SECRET_KEY=ci-only-secret-key \
