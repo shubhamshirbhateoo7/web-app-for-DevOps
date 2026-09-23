@@ -49,9 +49,7 @@ useradd -r -s /sbin/nologin webapp || true
 mkdir -p /opt/webapp/backend
 chown webapp:webapp /opt/webapp/backend
 
-# ── Install gunicorn into system python ──
-python3.11 -m pip install --upgrade pip
-python3.11 -m pip install gunicorn psycopg2-binary
+# gunicorn now only lives in the app's own .venv, installed during Jenkins deploy
 
 # ── Fetch DB credentials from Secrets Manager and write env file ──
 SECRET=$(aws secretsmanager get-secret-value \
@@ -94,7 +92,7 @@ User=webapp
 Group=webapp
 WorkingDirectory=/opt/webapp/backend
 EnvironmentFile=/opt/webapp/backend/.env
-ExecStart=/usr/local/bin/gunicorn core.wsgi:application \
+ExecStart=/opt/webapp/backend/.venv/bin/gunicorn core.wsgi:application \
     --bind 0.0.0.0:8000 \
     --workers 3 \
     --timeout 60 \
