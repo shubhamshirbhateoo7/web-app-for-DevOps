@@ -1,0 +1,35 @@
+WARNING: You are using pip version 21.3.1; however, version 26.0.1 is available.
+You should consider upgrading via the '/opt/webapp/backend/.venv/bin/python3 -m pip install --upgrade pip' command.
+Traceback (most recent call last):
+  File "/opt/webapp/backend/manage.py", line 16, in <module>
+    main()
+  File "/opt/webapp/backend/manage.py", line 12, in main
+    execute_from_command_line(sys.argv)
+  File "/opt/webapp/backend/.venv/lib64/python3.9/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "/opt/webapp/backend/.venv/lib64/python3.9/site-packages/django/core/management/__init__.py", line 382, in execute
+    settings.INSTALLED_APPS
+  File "/opt/webapp/backend/.venv/lib64/python3.9/site-packages/django/conf/__init__.py", line 102, in __getattr__
+    self._setup(name)
+  File "/opt/webapp/backend/.venv/lib64/python3.9/site-packages/django/conf/__init__.py", line 89, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/opt/webapp/backend/.venv/lib64/python3.9/site-packages/django/conf/__init__.py", line 217, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib64/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/webapp/backend/core/settings.py", line 60, in <module>
+    "PASSWORD": config("DB_PASSWORD"),
+  File "/opt/webapp/backend/.venv/lib64/python3.9/site-packages/decouple.py", line 248, in __call__
+    return self.config(*args, **kwargs)
+  File "/opt/webapp/backend/.venv/lib64/python3.9/site-packages/decouple.py", line 107, in __call__
+    return self.get(*args, **kwargs)
+  File "/opt/webapp/backend/.venv/lib64/python3.9/site-packages/decouple.py", line 92, in get
+    raise UndefinedValueError('{} not found. Declare it as envvar or define a default value.'.format(option))
+decouple.UndefinedValueError: DB_PASSWORD not found. Declare it as envvar or define a default value.
+failed to run commands: exit status 1

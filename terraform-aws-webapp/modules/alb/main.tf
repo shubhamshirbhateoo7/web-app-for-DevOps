@@ -36,6 +36,11 @@ resource "aws_lb_target_group" "app" {
   deregistration_delay = 30
 
   tags = { Name = "${var.project_name}-tg" }
+
+  # Add this block here:
+  lifecycle {
+    create_before_destroy = true
+  }
 }
 
 resource "aws_lb_listener" "http" {
