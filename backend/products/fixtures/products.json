@@ -190,5 +190,133 @@
       "created_at": "2024-01-21T10:00:00Z",
       "updated_at": "2024-01-21T10:00:00Z"
     }
+  },
+  {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+      "category": 5,
+      "name": "Trek Mountain Bike Helmet",
+      "slug": "trek-mountain-bike-helmet",
+      "description": "Lightweight MIPS-protected helmet for trail and road riding. Adjustable fit, 14 vents.",
+      "price": "59.99",
+      "stock": 40,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-22T10:00:00Z",
+      "updated_at": "2024-01-22T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+      "category": 5,
+      "name": "4-Person Camping Tent",
+      "slug": "4-person-camping-tent",
+      "description": "Weatherproof dome tent with rainfly, sets up in under 5 minutes. Great for weekend trips.",
+      "price": "129.99",
+      "stock": 18,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-23T10:00:00Z",
+      "updated_at": "2024-01-23T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+      "category": 6,
+      "name": "Vitamin C Facial Serum",
+      "slug": "vitamin-c-facial-serum",
+      "description": "Brightening serum with 20% Vitamin C and hyaluronic acid. Dermatologist tested, 30ml.",
+      "price": "24.99",
+      "stock": 60,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-24T10:00:00Z",
+      "updated_at": "2024-01-24T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+      "category": 6,
+      "name": "Professional Hair Dryer",
+      "slug": "professional-hair-dryer",
+      "description": "1875W ionic dryer with 3 heat settings and cool shot button. Reduces frizz, faster drying.",
+      "price": "44.99",
+      "stock": 25,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-25T10:00:00Z",
+      "updated_at": "2024-01-25T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+      "category": 7,
+      "name": "1000-Piece Jigsaw Puzzle",
+      "slug": "1000-piece-jigsaw-puzzle",
+      "description": "Scenic mountain landscape puzzle, premium thick cardboard pieces. Ages 12+.",
+      "price": "16.99",
+      "stock": 50,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-26T10:00:00Z",
+      "updated_at": "2024-01-26T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+      "category": 7,
+      "name": "Strategy Board Game: Settlers",
+      "slug": "strategy-board-game-settlers",
+      "description": "Award-winning trading and building board game for 3-4 players. 60-90 min playtime.",
+      "price": "39.99",
+      "stock": 22,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-27T10:00:00Z",
+      "updated_at": "2024-01-27T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+      "category": 8,
+      "name": "Organic Coffee Beans 2lb",
+      "slug": "organic-coffee-beans-2lb",
+      "description": "Single-origin medium roast, whole bean. Fair trade and USDA organic certified.",
+      "price": "18.99",
+      "stock": 70,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-28T10:00:00Z",
+      "updated_at": "2024-01-28T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+      "category": 8,
+      "name": "Extra Virgin Olive Oil 1L",
+      "slug": "extra-virgin-olive-oil-1l",
+      "description": "Cold-pressed, first extraction olive oil from Mediterranean groves. Rich, fruity flavor.",
+      "price": "14.99",
+      "stock": 45,
+      "image": "",
+      "is_available": true,
+      "created_at": "2024-01-29T10:00:00Z",
+      "updated_at": "2024-01-29T10:00:00Z"
+    }
   }
 ]
